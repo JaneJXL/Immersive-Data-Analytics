@@ -1,4 +1,4 @@
-firstg = input('Good day. What is your problem? Enter your response here or Q to quit.\n')
+firstg = input('Good day. What is your problem? Enter your response here or Q to quit:')
 good = 'false'
 
 while good == 'false':
@@ -6,5 +6,5 @@ while good == 'false':
         print('Have a nice day!')
         good = 'true'
     else:
-        firstg = input('Enter your response here or Q to quit.\n')
+        firstg = input('Enter your response here or Q to quit:')
         good == 'false'
