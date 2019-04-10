@@ -7,6 +7,6 @@ while good == 'false':
         print('Have a nice day!')
         good = 'true'
     else:
-        firstg = input('Enter your response here or Q to quit:')
         print(firstg)
+        firstg = input('Enter your response here or Q to quit:')
         good == 'false'
