@@ -2,7 +2,7 @@ firstg = input('Good day. What is your problem? Enter your response here or Q to
 good = 'false'
 
 while good == 'false':
-    if firstg == 'i am feeling great' or firstg =='Q' or firstg =='q':    #firstg == 'I am feeling great' or firstg == 'I AM FEELING GREAT'
+    if firstg == 'i am feeling great' or firstg =='Q' or firstg =='q':
        firstN =''
        firstN = firstN + 'you are feeling great'
        print(firstN)
